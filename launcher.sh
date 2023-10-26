@@ -23,7 +23,7 @@ function parse_yaml {
 }
 
 if [ -z ${SDK_CONFIG+x} ]; then
-    CONFIG="/daemon/daemon_settings.yml"
+    CONFIG="/app/daemon_settings.yml"
 else
     CONFIG=$SDK_CONFIG
 fi
